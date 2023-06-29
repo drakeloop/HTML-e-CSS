@@ -1,0 +1,40 @@
+Aplicação no (ex003).
+
+#Colocando imagens no site:
+__________________________________________________________________________
+Imagem = <img scr='' alt=''>
+
+	<img src="foto.png"alt="Exemplo de foto">
+	  ^   ^=(parâmetro)=^			^	
+	  ^   					^
+      (abertura	            		   (fechamento
+        de tag)  	                      de tag)
+
+	     Valores= "foto.png" e "Exemplo de foto"
+
+se lê:  "Mostre a imagem src(source) de origem 'foto.png, 
+	 se não houver, alt(alternativa) mostre 'exemplo de foto'"
+___________________________________________________________________________
+
+#Fontes com direitos de publicação: domínio publico
+
+-Unsplash: https://unsplash.com/pt-br
+Tem que navegar nele em inglês ex: 'study person' (pessoa, estudo).
+-Pexels: https://www.pexels.com/pt-br/
+Esse navega em português.
+-Freepik
+-Rawpixel
+-Pixabay
+-Libreshot
+-Wikimedia Commons
+
+#Gimp: https://www.gimp.org/ 
+-programa free de manipulação de imagem
+
+#Colocando imagem:
+	-digite 'img' >>> enter
+	-<img scr='segure ctrl+space' alt=''>
+			  ^
+			  ^
+		-te mostrará a lista das imagens
+		que estão na mesma pasta.

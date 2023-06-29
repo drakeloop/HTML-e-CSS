@@ -1,0 +1,64 @@
+Aplicação no (ex019 e ex020).
+
+	# = id
+	. = class
+	: = pseudo-class
+       :: = pseudo-element
+	> = children (dentro de)
+___________________________________________________________________________
+###Pseudo-class:
+-Em CSS = elemento:
+-São palavras que definem 'estados' de elementos dentro da html atribuindo
+formatações nesses estados(com mouse sobre, ao clicar, etc).
+#Pseudo-class:
+	-div é uma área da página
+	-Em HTML é <div>  =  Em CSS é div{formato padrão}   e  div:hover{formato quando passar o mouse}
+		-Usar para criar um bloco/área na página.
+		
+		-<div id="01">conteudo</div>	(em html)
+			div {
+			-display: inline-block; (display = mostrar)
+			-background-color: gray;
+			-border: 1px solid black; (shorthand para borda)
+			-height: 200px; (é altura)
+			-width:  200px; (é largura)
+			}
+
+			div:hover {		(na pseudo-class hover)
+				background-color: yellow	   ^
+			}					   ^
+								(quando
+								passar o
+								 mouse)	
+a:hover = ao passar o mouse sobre
+a:visited = link já visitado
+a:active = ao clicar sobre
+___________________________________________________________________________
+
+#Colocando conteúdo oculto:
+
+<style>
+	div > p {display: none;			(none = não mostrar)
+	}
+	div:hover > p {display: block;		(block = mostrar bloco)
+		       background-color: red; 
+                       color: white;
+                       width: 300px;
+	}
+</style>
+--------------------------------------------------------------------------	
+<div>
+	Passe o mouse aqui
+	<p>Conteúdo Oculto</p>
+</div>
+
+___________________________________________________________________________
+###Pseudo-elementos:
+Em css = elemento::
+-Adicionam conteúdo ates ou depois de algum elemento seja (id, class,
+a heref:"" ou etc.)
+
+
+
+
+		

@@ -1,0 +1,31 @@
+Aplicação no (ex017).
+___________________________________________________________________________
+main {
+    background-color: white;
+    width: 600px;      /* Tamanho onde a parte escrita será exibida*/
+    border-radius: 5px; /*Arredonda os bicos */
+    box-shadow: 5px 5px 15px #017a4eb7;
+    padding: 10px;     /* Aumenta a borda em relação a letra */ 
+    margin: auto;      /* auto ajustamento do texto */
+}
+---------------------------------------------------------------------------
+
+box-shadow: 1px 1px 1px #cor;
+	-Deslocamento à direita;
+	-Deslocamento à esquerda;
+	-Espalhamento;
+	-Cor da sombra.
+	
+	-invert antes do 'deslocamentos' faz Sombra Interna.
+		ex: box-shadow: inset 1px 1px 1px #cor;
+	-DivTools:
+		-Teste as sombras no div tools;
+		-coloque as configurações de box-shadow no css da página;
+		-localize ele no DivTools;
+		-clique nos quadradinhos(open shadow editor).
+
+
+
+
+
+

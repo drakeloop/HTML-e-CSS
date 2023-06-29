@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixas</title>
+    <style>
+        h1 {  /* Box-level */
+            height: 300px;
+            width: 300px;
+            background-color: antiquewhite;
+
+            border-width: 10px;    /*expessura*/
+            border-style: solid;   /*solida*/
+            border-color: darkslategray;
+            /*ou short-hand 
+            border: 10px solid darkslategray;        */
+            
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /*ou short-hand 
+            padding: 10px 10px 10px 10px;        */
+
+            margin-top: 20px;
+            margin-right: auto;
+            margin-bottom: 40px;
+            margin-left: auto;
+            /*ou short-hand 
+            margin: 20px auto 40px auto;        */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: skyblue;
+            /*ou short-hand 
+            outline: 5px dashed skyblue;        */
+        }
+        a { /* Inline-level */
+            border-width: 10px;    /*expessura*/
+            border-style: solid;   /*solida*/
+            border-color: red;
+
+            padding-top: 10px;   /*engorda em cima*/
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+        .dica {
+            font-weight: 600;
+            color: brown;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box-level</h1>
+    <p>Páragrafos são exemplos de box-level mas <a href="n">links são exemplos de caixas inline-level, </a>vamos ver como isso funciona</p>
+    <p class="dica">-Para testar ajustes, abra o chrome na sua pege, [clique+botão direiro] e escolha [inspecionar]</p>
+    <p class="dica">-No (DevTools) ajuste as edições que você definiu na sua folha de estilo até ficar do seu agrado.</p>
+    <p class="dica">-Após altere dentro do seu código CSS, pois o (DevTools) altera o visual momentaneamente no seu navegador</p>
+</body>
+</html>

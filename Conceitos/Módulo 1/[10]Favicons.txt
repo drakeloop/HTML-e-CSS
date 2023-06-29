@@ -1,0 +1,23 @@
+Aplicação no (ex004).
+
+#Como baixar e colocar favicons no seu site:
+
+-Baixando: site: Iconarchive
+https://www.iconarchive.com/
+	-Pesquise a imagem que desejar, são milhares.
+-Editando: site: Favicon
+https://favicon.io/
+	3 opções de criação:
+		-png --> ico (faz uma imagem png sua virar favicon)
+			cole, baixe, extraia, abra e pegue a opç.ico
+		-text --> ico (faz letras virarem favicon)
+			escolha entre formato, cor e fonte e baixe.ico
+		-emoji --> ico (faz icones de emojis)
+			escolha o emoji e baixe.ico
+___________________________________________________________________________
+#Colocando o favicon na página:
+
+-Na linha superior ao <title> escreva:
+	-[link:] deça as opções até 'link:favicon' e de ENTER.
+	-no lugar de [favicon.ico] você apaga e dá um CTRL+SPACE
+	-escolha uma favicon(foto em miniatura).

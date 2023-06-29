@@ -1,0 +1,43 @@
+Aplicação no (ex001).
+
+iniciação rápida = !(enter) =>language=pt-br
+---------------------------------------------------------------------------
+comentários no html = <!--comentário aqui-->
+---------------------------------------------------------------------------
+#Tags Básicas:
+__________________________________________________
+Titulo = <h1></h1>
+
+	<h1>Exemplo titulo</h1>
+         ^	     	    ^
+     (abertura	       (fechamento
+       de tag)  	  de tag)
+____________________________________________________
+Parágrafo = <p></p>
+
+	<p>Exemplo de parágrafo</p>
+	 ^ 			 ^
+      (abertura	            (fechamento
+        de tag)  	       de tag)
+____________________________________________________
+Quebra de linha(break role) = <br>
+
+	<p>
+	    Dessa<br>forma<br>uma<br>palavra<br>ficará<br>em<br>
+	    baixo<br>da<br>outra.
+	</p>
+____________________________________________________
+
+
+imagem = <img scr='' alt=''>
+
+	<img src="foto.png"alt="Exemplo de foto">
+	  ^   ^=(parâmetro)=^			^	
+	  ^   					^
+      (abertura	            		   (fechamento
+        de tag)  	                      de tag)
+
+	     Valores= "foto.png" e "Exemplo de foto"
+
+se lê:  "Mostre a imagem src(source) de origem 'foto.png, 
+	 se não houver, alt(alternativa) mostre 'exemplo de foto'"

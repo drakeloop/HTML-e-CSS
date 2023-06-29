@@ -1,0 +1,45 @@
+Aplicação no (ex008/ex008b).
+
+#Cor de fundo e endereço:
+___________________________________________________________________________
+<title>Cor de fundo e endereço</title>
+    <style>	
+        body  {
+            background-color: rgb(2, 50, 78);
+        }
+    </style>
+</head>
+<body>
+    Eu moro na: <address>Rua. Chico Xavier, 64 - Osasco - Sp</address>
+</body>
+
+Cor de Fundo:
+	-(1 linha abaixo do titulo chama <style>)
+	-Depos body  {	
+		-Digite [background-color:]+[ENTER]
+		-Escolha a cor com o mouse
+
+#Endereço:
+	-digite [address]+[ENTER] e digite o endereço entre as tag.
+___________________________________________________________________________
+#Negrito e Itálico:
+
+-Principais Formatações:
+
+    -Negrito / Destaque:
+    	-Nesta frase temos um <strong>termo em destaque</strong> usando 
+	a tag STRONG (com semântica)
+    
+     -Itálico / Ênfase:
+    	-Nesta frase temos um <em>termo em ênfase</em> usando a tag 
+	EM (com semântica)
+__________________________________________________________________________
+#Comando de ATALHO: envelopamento
+
+	-Selecione a parte que deseja colocar entre uma tag qualquer.
+	-Segure: [Ctrl]+[Shift]+[P]
+   	-De [ENTER] na opção [Envelop com abreviatura]
+	-Digite na sequência a tag que deseja ex: p, h2, strong, em.
+
+*essa técnica é feita rapidamente com o passar do tempo(tipo marcha de moto).
+___________________________________________________________________________

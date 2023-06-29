@@ -1,0 +1,50 @@
+
+
+#Alinhamento:
+	*Para título geralmente:
+		-text-align: center; (alinhado no centro)
+
+	*Para Subtítulo geralmente:
+		-text-align: left; (padrão, alinhado a esquerda)
+		-text-align: right; (alinhado a direita)
+
+	*Para texto geralmente:
+		-text-align: justfy; (alinhado em ambos lados)
+		-text-indent: 30px; (espaço do inicio dos parágrafo)
+
+___________________________________________________________________________
+Aplicação no (ex019).
+___________________________________________________________________________
+
+#id e class:
+
+	-Em HTML é id	 = em CSS é #
+		-Usar para alterar apenas 1 item com id;
+
+		-<h1 id="principal">       (em html)
+			 h1#principal {	   (em css )
+					
+			 }
+
+---------------------------------------------------------------------------
+
+	-Em HTML é class = em CSS é .
+		-Usar para alterar dois ou mais itens com class;
+
+		-<h2 class="destaque">	   (em html)
+			 .destaque {	   (em css )
+
+			  }
+
+___________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+

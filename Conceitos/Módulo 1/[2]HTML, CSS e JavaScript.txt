@@ -1,0 +1,34 @@
+A HTML: É uma linguagem de desenvolvimento web (não de programação)
+As CSS: São as folhas de estilo
+
+Se diz: Eu DESENVOLVO ou CRIO sites em HTML
+
+HyperText(quando você clica em uma palavra no texto e é direcionado para 
+outro texto ou parte);
+MarkupLanguage(Linguagem de Marcação).
+HTML = linguagem de marcação de hyper texto.
+
+Cascading(Cascata uma modifica a outra sobreposta);
+StyleSheets(Folhas de estilo).
+
+"HTML é uma linguagem baseada em conteúdo"
+-texto
+-imagem
+-video
+-tabela
+-listas
+
+
+"CSS é a parte de dsign)
+-cor
+-sombra
+-fonte
+-tamanho
+-posicionamento
+
+
+"JavaScript trabalha as interações em um site"
+-menu hamburguinho
+-filtros
+-animações
+-popups(caixinhas com mensagem que abrem na tela)

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+        h1 {
+            font-family: 'Kaushan Script', cursive;
+            text-align: center;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.548);
+        }
+        h2 {
+            font-family: 'Kaushan Script', cursive;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.548);
+        }
+        body {
+            background-color: #508AA8;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px;
+        }
+        nav {
+            background-color: #ECCBD9;
+            padding: 3px;
+            border-radius: 3px;
+            box-shadow: 2px 2px 3px #eccbd9a1;
+        }
+        nav > a {
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px 20px;
+            box-shadow: -2px 2px 2px #c2fcf7ab;
+        }
+        article {
+            background-color: #C2FCF7;
+            padding: 5px;
+            border-radius: 3px;
+            box-shadow: -2px 2px 2px #c2fcf769;
+
+        }
+        article > aside {
+            background-color: #a3d6d2;
+            box-shadow: 2px 2px 3px #a3d6d28a;
+        }
+        article > p {
+            text-align: justify;
+        }
+        footer {
+            background-color: #031927;
+            color: rgb(148, 149, 150);
+            padding: 4px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;      /*Para consertar a margem de 16 que o navegador estava considerando no paragráfo do rodapé*/
+        }
+        div#circulo {
+            height: 100px;
+            width: 100px;
+            background-color: #031927;
+            margin: 20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>     <!--Cabeçalho(Apresentação do site)-->
+        <h1>Meu site</h1>
+        <nav>    <!--Links do menu-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>      <!--Conteúdo principal-->
+        <section id="assuntos"> <!--São areas dentro do c-->
+            <p>Esportes e Tecnologias</p>
+        </section>
+        <section id="noticias">
+            <article>  <!--Artigo dentro de uma secção-->
+                <h2>Título das notícias</h2>
+                <p>Páragrafos referente: Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quia blanditiis commodi odit molestiae voluptatibus voluptatum mollitia minima reiciendis? Quidem laudantium tempore vero, quis voluptas quo excepturi fugit placeat eveniet.</p>
+                <aside>     <!--informação periférica ao article-->
+                    <p>Artigo escrito por Guanabara</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>    <!--Rodapé(informações de contatos e/ou patrocínios)-->
+        <p>Desenvolvido pelo Curso em vídeo</p>
+    </footer>
+    <div id="circulo"></div>
+</body>
+</html>

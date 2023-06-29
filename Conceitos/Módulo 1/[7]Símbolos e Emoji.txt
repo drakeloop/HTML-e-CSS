@@ -1,0 +1,39 @@
+Aplicação no (ex002).
+
+#Como colocar símbolos e emojis no site:
+-Símbolos:
+HTML Entities: Entidades HTML
+Alguns caracteres funcionam apenas em HTML.
+
+Se você usar os sinais de menor que (<) ou maior que (>) no seu texto, o 
+navegador pode misturá-los com as tags.
+
+As entidades de caracteres são usadas para exibir caracteres reservados em 
+HTML.
+
+Resultado/ Descrição/	   Nome da endidade/   Número da endidade
+	   espaço                &nbsp;	       	   &#160;
+   <	   menor que		 &lt;		   &#60;
+   >	   maior que		 &gt;		   &#62;
+   &	   ampersand		 &amp;		   &#38;
+   "	   aspas duplas		 &quot;		   &#34;
+   '	   aspas unica		 &apos;		   &#39;
+   ¢	   centavo (dólar)	 &cent;		   &#162;
+   £	   peso			 &pound;	   &#163;
+   ¥	   yen			 &yen;		   &#165;
+   €	   euro			 &euro;		   &#8364;
+   ©	   copyright		 &copy;		   &#169;
+   ®	   marca registrada	 &reg;		   &#174;
+
+todas entitiy em:
+http://arquivo.devmedia.com.br/artigos/devmedia/html-entities.html
+
+-Emojis:
+todos emojis em:
+https://emojipedia.org/
+-Escolha o emoji e entre nele:
+	-procure pelos 'Codepoints'
+		        ex: 🚀 U+1F680
+	-no html digite:<p>
+			   &#x1F680;  (sempre começe com &#x)
+			</p>

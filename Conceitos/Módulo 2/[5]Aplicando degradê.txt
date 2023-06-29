@@ -1,0 +1,52 @@
+Aplicação no (ex016).
+___________________________________________________________________________
+----------------------------Aplicando degradê------------------------------
+___________________________________________________________________________
+
+#Exemplo de degradê no body:
+
+ * {  (Configurações globais das CSS) 
+    height: 100%;  (para pegar 100% da página de uma vez)
+ }
+
+ body {  (Configurações no body das CSS)
+
+       background-image: linear-gradient(to bottom, #927DC2, #AC67C2, #752C70);
+       background-attachment: fixed;  
+                (^ para fixar a cor na página toda até o final)     
+  
+ }
+---------------------------------------------------------------------------
+#Variações:
+	-background-image: linear-gradient(to direção, cor, cor,...);
+					   -------------------------
+		-bottom, (de baixo para cima)
+		-left, (da esqueda para direita)
+		-right, (da direita para esquerda)
+				ou
+	-background-image: linear-gradient(45deg, cor, cor,...);
+					   -------------------------
+		-90deg(graus) = to righ
+		-180deg(graus) = to bottom
+		-270deg(graus) = to left
+		-360deg(graus) = to top
+		*Com graus é mais versátil pq dá pra variar 360 vezes.
+
+___________________________________________________________________________
+
+#Indicando a proporção da cor:
+	-background-image: linear-gradient(to direção, cor 20%, cor 40%,cor...);
+					   ------------------------------	
+		-Após a cor desejada [+space] indique quantos % do degradê
+		 a cor irá ocupar;
+		-As não indicadas ficaram automaticamente com o restante.
+___________________________________________________________________________
+*Ter moderação e não exagerar é o segredo para um design bonito e agradável.
+___________________________________________________________________________
+
+
+
+
+
+
+

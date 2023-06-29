@@ -1,0 +1,66 @@
+Aplicação no (ex010).
+
+#Links Externos:
+
+tag: <a href="">texto clicável</a>
+
+tag <a(ancora) href="colocar a URL á abrir"
+    target="_blank"(serve para abrir em outra janela) 
+    rel="external"(recomendado usar)>texto clicável fecha a tag </a>(ancora)
+---------------------------------------------------------------------------
+#Links internos:
+
+tag: <a href="">texto clicável
+
+-Da página inicial para outra:
+
+tag <a(ancora) href="nome da página no seu site"
+     rel="next">texto clicável fecha a tag </a>(ancora)
+
+			ou
+
+-De outra página para a página inicial:
+
+tag <a(ancora) href="nome da página no seu site"
+     rel="prev">texto clicável fecha a tag </a>(ancora)
+---------------------------------------------------------------------------
+--Links internos com página em pastas diferentes:
+
+tag: <a href="">texto clicável
+
+-Da página inicial para outra:
+
+tag <a(ancora) href="nome da pasta/nome da página no seu site"
+     rel="next">texto clicável fecha a tag </a>(ancora)
+
+			ou
+
+-De outra página para a página inicial:
+
+tag <a(ancora) href="../nome da página no seu site"
+     rel="prev">texto clicável fecha a tag </a>(ancora)
+
+../ sai da pasta atual.
+___________________________________________________________________________
+#Links para download:
+
+tag: <a href="">texto clicável
+
+
+tag <a(ancora) href="nome da pasta/nome do arquivo"
+     download="nome do arquivo"type="aplication.zip">texto clicável fecha 
+     a tag </a>(ancora)
+
+*type varia com o tipo do arquivo*
+type="aplication.zip"		type="audio/aac"
+type="aplication.pdf"		type="audio/mpeg"
+type="video/mp4"		type="image/jpeg"
+type="video/H264"		type="image/png"
+type="video/jpeg"		
+
+--lista completa de types para executar download:
+https://www.iana.org/assignments/media-types/media-types.xhtml
+
+
+
+

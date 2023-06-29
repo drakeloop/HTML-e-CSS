@@ -1,0 +1,27 @@
+#Comentários no HTML:  
+	<!--comente aqui-->
+___________________________________________________________________________
+
+#Estilo em CSS:
+
+      <style>	(tudo que está dentro  de style é CSS)
+     seletor	declaração: toda declaração termina com ponto e vírgula;
+	^           ^
+        h1{	    ^
+	    font-family:Arial;
+	    font-size:20pt;		(20pt = 20pizells)
+	    color:blue;
+	   }  ^     ^
+    	      ^     ^    Toda declaração em CSS TEM:
+              ^  -valor = blue; 20pt; Arial;
+	 -propriedade: color:, font-size:, font-family:
+       </style>
+___________________________________________________________________________
+#Como funcionam a HTML e as CSS?
+
+-Pesquisamos pelo nome da URL que é enviada para o servidores da DNS;
+-A DNS analisa e envia o IP do servidor de armazenamento do site procurado;
+-Esse servidor envia uma cópia dos códigos desse site para seu computador;
+-Ele é disponibilizado no navegador que é um leitor dos códigos e gerando 
+um resultado visual na sua máquina.
+ 

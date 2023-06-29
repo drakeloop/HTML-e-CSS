@@ -1,0 +1,33 @@
+Aplicação no (ex011).
+
+#Imagem ajustável:
+
+-abra a tag <picture>
+-coloque a imagem maior como base usando a tag <img>
+-crie um source media="(max-width: ...px)" srcset"imagem" type="tipo da 
+imagem"> 
+max-width: configure para mudar a partir de 50px ácima do seu tamanho da 
+imagem imagem de 1000 de largura muda em 1050px.
+
+     <picture>
+        <source media="(max-width: 500px)" srcset="Imagens/foguete(pp).png"
+	type="image/png">
+        <source media="(max-width: 750px)" srcset="Imagens/foguete(p).png" 
+	type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foguete(m).png" 
+	type="image/png">
+        <img src="Imagens/foguete(g).png" alt="foguete">
+     </picture>
+---------------------------------------------------------------------------
+#Reproduzindo áudio:
+
+-abra a tag <audio controls>
+		      ^
+	   	 add controls
+	(faz aparecer play, pause e tempo)
+
+-entre ela crie tags <source src="pasta/arquivo.mp3ou.ogg" type="audio/mp3 
+ou audio/ogg">						      
+-por último crie uma tag <a href="pasta/arquivo.mp3"clique aqui para 
+download>(Se o navegador do cliente não for compatível com nenhuma conversão
+aparecerá a opção de download).

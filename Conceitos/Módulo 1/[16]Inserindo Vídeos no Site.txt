@@ -1,0 +1,61 @@
+Aplicação no (ex012).
+
+site para baixar: pixels(baixe em menor resolução)
+__________________________________________________________________________
+#Formatos para baixar:
+
+-Formatos: mp4, mkv, ogv e webm
+-Handbreak: programa de converção de vídeo
+	-Arrasta o video para o programa
+	-escolhe o formato e resolução mínima
+	-dê start e pronto.
+___________________________________________________________________________
+#Inserindo Vídeos Locais:
+
+-Abra a tag <video width="500" controls>
+		<source src="local do video(.mkv ou .webm ou .ogv)" type="video/(mkv ou webm ou ogg)"
+		add quantos formatos quiser, se um não for compátivel o navegador tenta o próximo. 
+		<a href="local do video(.mkv ou .webm ou .ogv)">clique aqui para dowload</a>
+ 	    </video>
+
+width="500" (É o parametro largura em 500);
+Height="300" (É o parametro altura em 300);
+controls (É o parametro que faz aparecer os controles em vídeos e áudios).
+____________________________________________________________________________
+#Inserindo Vídeos do Youtube:
+
+-procure ou suba um vídeo no youtube
+-opç: compartilhar --> incorporar<> --> copiar
+-colar no seu código do site
+____________________________________________________________________________
+#Inserindo Vídeos do Vimeo
+
+-procure ou suba um vídeo no Vimeo
+-opç: compartilhar --> incorporação<> --> copiar código <inframe>
+-colar no seu código do site
+____________________________________________________________________________
+#Videos locais: 
+-consume os dados na hospedagem e isso fica caro, subindo do 
+===========================================================================
+Youtube ou Vimeo usa o servidor dessas plataformas o que torna gratuito o
+consumo no seu site.
+===========================================================================
+#Youtube "problemas":
+-Torna o vídeo público mesmo em anônimo, podendo ser pirateado
+-No player do vídeo oferece outros vídeos (pode até ser do concorente)
+===========================================================================
+#Vímeo "problemas":
+-Privado seu video apenas seu.
+-pago anualmente para subir vídeos.
+______________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+

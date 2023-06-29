@@ -1,0 +1,65 @@
+
+-----------------------Formas de Criar Paletas-----------------------------
+___________________________________________________________________________
+#Extraindo paletas de uma Imagem:
+	-Use o Adobe Color --> Criar
+	Paleta manual:
+		-Extrair tema
+		-Vá indicando e organizando os pontos de cor de 
+		sua preferência.
+		-Copie os códigos depois
+	Monocromática/Degradê:
+		-Extrair gradiente
+		-Escolha a quantidade de gradientes(pontos)
+		-Vá indicando e organizando os pontos de cor de 
+		sua preferência.
+		-Copie os códigos depois
+---------------------------------------------------------------------------
+
+#Extraindo cores de sites:
+	-Google Chrome:
+		-Extensão(Colorzilla)
+		-[clique] no icone da extensão ('gotejador')
+		-[clique] sobre a cor desejada
+		-Ela será copiada --> cole ela na sua paleta.
+
+___________________________________________________________________________
+
+#Criando paletas com Disco de Cores:
+
+	Adobe Color:
+		-Escolha o tipo de harmônia
+		-Vá indicando e organizando os pontos de cor de 
+		sua preferência.
+		-Copie os códigos depois
+---------------------------------------------------------------------------
+	Paletton:
+		-Escolha o tipo de harmônia
+		-Vá indicando e organizando os pontos de cor de 
+		sua preferência.
+		-Copie os códigos depois
+		*Examples: Essa opção mostra a paleta em um exemplo 
+			   de site.
+
+___________________________________________________________________________
+
+#Criando Paletas com modo aleatótio:
+
+	Coolors:
+		-Aperte [space] para mudar as cores
+		-[clique] em cadeado para travar as de preferência
+		-Faça isso até que todas agradem.
+		*As sugestões são baseadas na combinação com as 'travadas'
+
+____________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+

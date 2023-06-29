@@ -1,0 +1,20 @@
+
+#Font-end e Back-end:
+
+-Técnologias Client-Side: São técnologias que funcionam no navegador.
+	    (Lado do cliente) - Front-end 
+	    'Front-end trabalha mais com o cliente e o desing'
+	     -HTML
+	     -CSS
+	     -JavaScript(para client-side)
+
+-Técnologias Server-Side: São técnologias que funcionam nos servidores.
+	    (Lado do servidor) - Back-end
+	    'Back-end trabalha mais focado no código que vai para o servidor.
+	     -PHP
+	     -JavaScript(para servidor)
+	     -C#
+	     -Python	
+	     -Java
+
+#Full stack: É quem domina Front-end e Back-end

@@ -1,0 +1,63 @@
+Aplicação no (ex016).
+___________________________________________________________________________
+---------------------------Representação de Cores--------------------------
+___________________________________________________________________________
+#Representação por Nomes:
+	-background-color: blue; color: white;
+		             ^         	  ^
+		    	    nome	 nome
+---------------------------------------------------------------------------
+#Representação por códigos hexadecimais:
+	-background-color: #0000ff; color: #ffffff
+			       ^       	       ^
+		       	     código	     código
+
+    <!--Decimal = 0 1 2 3 4 5 6 7 8 9 -->
+    <!--Hexadecimal = 0 1 2 3 4 5 6 7 8 9 A B C D E F -->
+    <!--Cores com 6 digitos: 
+            -1º e 2º Vermelho(R)red
+            -3° e 4° Verde(G)gren
+            -5º e 6º Azul(B)blue
+        Azul mais intenso = #0000ff
+        #00(nenhum vermelho)00(nehum verde)ff(todos azul)
+---------------------------------------------------------------------------
+#Representação por RGB(Red, Gren, Blue):
+	-background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);
+			       ^  ^   ^		       ^    ^    ^
+			       r  g   b		       r    g    b
+        
+    <!--rgb()usa decimais de 0 á 255 das 3 cores:
+    	nada = 0
+    	tudo = 255
+---------------------------------------------------------------------------
+#Representação por HSL(Hue, Sturation, Luminosity):
+	-background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);
+				^    ^     ^ 		   ^   ^    ^
+				h    s     l               h   s    l
+
+---------------------------------------------------------------------------
+#Representação com Alfa(Transparência), ex:(rgba)
+	-background-color: rgba(0, 0, 255, 0.685); color: rgba(255, 255, 255, 0.877);
+				^  ^   ^      ^		        ^    ^    ^      ^
+			        r  g   b      a		        r    g    b      a
+
+	<!--Alfa(Transparência):
+        Quarta composição de uma cor é opcional;
+            -0000ff vira 0000ff00
+            -rgb vira rgba
+            -hsl vira hsla 
+___________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+O conceito de Tecnologia da Informação
+
+Ainda que possa ser compreendida de várias formas, a TI é entendida como o conjunto de todas as atividades e soluções produzidas por meio de recursos tecnológicos da computação para realizar o armazenamento, processamento, utilização e transmissão da informação. Para a informática, a informação será um dado contextualizado do qual alguma tomada de decisão poderá ser feita. 
+
+Exemplos comuns de Tecnologia da Informação aparelhos telefônicos, softwares, computadores, satélites, redes de dados, entre outros. Os profissionais da área trabalham para que todos esses sistemas de comunicação continuem funcionando corretamente, transmitindo informações da forma mais ágil possível com a ajuda de recursos tecnológicos, buscando melhorias constantes e também criando e desenvolvendo novas tecnologias que facilitem a vida dos usuários. 
+
+Com a pandemia de Covid-19, a utilização de recursos tecnológicos ganhou ainda mais destaque. Prova disso pode ser vista no aumento no uso de aplicativos de delivery, de plataformas para comunicação à distância e no desenvolvimento de novas atividades no mundo digital. Todos esses recursos utilizam a TI como base para o seu funcionamento. 
+Inscreva-se no Fellow Tech e concorra a bolsas de estudos voltadas para financiar e apoiar estudantes de tecnologia
+Mudanças sociais
+
+O desenvolvimento das Tecnologias da Informação trouxe diversos impactos para a forma como as pessoas se relacionam e se comunicam. Se há 50 anos era preciso escrever uma carta e esperar dias – quando não meses – pela resposta para entrar em contato com alguém em outra cidade ou país, hoje isso pode ser feito em questões de segundos. Outras transformações motivadas pela TI foram: 
+
+    Maior disseminação de conhecimento; 
+    Aumento da agilidade e eficiência em processos produtivos;
+    Fomentação da inovação; 
+    Automatização de processos;
+    Novas formas de comunicação e entretenimento;
+    Desenvolvimento econômico, científico e tecnológico;  
+    Diversificação dos processos educacionais;
+
+Além disso, também podem ser citadas mudanças nos hábitos de consumo, relações sociais e comportamentos, de forma geral. Essas inovações também trouxeram desafios, preocupações e aumentaram desigualdades. Mas, a tecnologia é apenas uma ferramenta e seu impacto está mais relacionado com a forma como ela é utilizada pelas pessoas do que por suas propriedades em si. 
+
+O mercado de trabalho para TI
+
+Outro aspecto importante que foi impactado pela Tecnologia da Informação foi o mercado de trabalho. Se de um lado, várias pessoas foram substituídas por máquinas em trabalhos mecânicos, do outro um número muito maior de novas posições foram criadas para profissionais de tecnologia. 
+
+A demanda por esse tipo de trabalho é tão alta – e recente – que ainda não foi possível capacitar pessoas suficientes para suprir as necessidades do mercado. Um outro levantamento da Brasscom estima que o déficit de profissionais de TI pode chegar a meio milhão até 2025. Não só surgem novas oportunidades de atuação, como profissões antigas foram reinventadas.
+
+Mesmo carreiras tradicionais como o Direito, por exemplo, tiveram seus modelos de trabalho alterados pela tecnologia. Isso inclusive gerou um movimento de criação das empresas tech e startups que misturam a tecnologia com serviços de um segmento específico. Ainda é possível mencionar a inclusão de cada vez mais tecnologia dentro do ambiente de trabalho, como aplicativos, softwares, videoconferências e muito mais. 
+
+A Tecnologia da Informação se desenvolveu de tal forma que ela está presente em todos os setores e muitas vezes é difícil dissociá-la de atividades cotidianas. A facilidade e comodidade que as soluções tecnológicas trouxeram é um dos grandes fatores que motiva o setor a continuar crescendo. E a necessidade de continuar inovando, se manter competitivo e trazer praticidade faz com que os profissionais da área sejam extremamente desejados. 
+
+Não é à toa que a tecnologia é chamada de “a profissão do futuro”. Na era da revolução tecnológica, toda e qualquer tarefa, demanda, empresa ou trabalho vai necessitar de um especialista em TI para continuar desenvolvendo e melhorando os processos dentro das organizações. Isso impacta a todos, seja como alguém dentro da empresa ou como consumidor, já que as tecnologias também são uma constante na vida pessoal. 
+
+9 possibilidades de atuação em TI
+
+Em geral, a área de TI demanda que o profissional se atualize constantemente e siga estudando por toda a carreira. Mas como formação inicial, cursos como ciências da computação, eletrônico, engenharias, análise e desenvolvimento de sistemas e informática oferecem boas bases, seja na graduação ou em modalidade técnica/tecnóloga. 
+
+A melhor opção depende de que tipo de trabalho se quer desenvolver. Dentro da área de tecnologia, os profissionais podem se especializar em diversos segmentos. Veja quais são e como se caracterizam os mais populares:
+
+#1. Programação
+
+A Programação é a área que, de maneira direta, cria sistemas com base em códigos. Os profissionais do segmento são responsáveis por programar aplicativos (dos mais diversos tipos) e softwares para dispositivos móveis em geral. Para que isso seja possível, os programadores contam com linguagens – de códigos – segundo as quais os comandos são criados, como html e java. 
+
+#2. Segurança da informação
+
+Evitar o vazamento de dados sensíveis é a missão de quem trabalha com Segurança da Informação. Se pensarmos no contexto corporativo, a área se torna ainda mais relevante, já que garante que os funcionários não instalem programas de computador que possam comprometer informações sigilosas, por exemplo. Alguns dos pontos cruciais do ramo são manter a confidencialidade e a autenticidade por meio do cuidado diário com o risco de ataques cibernéticos por meio de vírus (como malwares). Quem trabalha com Segurança da Informação também precisa dominar – a fim de conseguir combater – as técnicas de phishing, que é um tipo de ataque concentrado para roubar informações bancárias e outros dados financeiros.
+
+#3. Sistema de Redes
+
+Uma rede de computadores é um conjunto de dois ou mais dispositivos eletrônicos interligados por um sistema de comunicação digital. Servidores e modens, por exemplo, são dispositivos conhecidos como “nós”, que se conectam. O segmento que cuida disso é o de Sistema de Redes, capaz de garantir o bom funcionamento da interconexão.
+
+#4. Ciência de Dados
+
+A Ciência de Dados (ou Data Science, em inglês) lida com um grande volume de informações para, com base nelas, orientar a tomada de decisão. Os profissionais desta área podem trabalhar para a experiência do cliente, prevendo seus comportamentos de consumo a partir de dados de interesse.
+
+#5. Análise de Sistemas
+
+Nesta área, o foco está no estudos de softwares (programas) e hardwares (equipamentos) a fim de fazer uma ponte entre os sistemas e as necessidades dos usuários. A análise propriamente dita se dá no sentido de encontrar um caminho racional para que a informação seja processada.
+
+#6. Engenharia de Software
+
+Os engenheiros neste segmento de TI têm entre suas atribuições entender as técnicas para construir um software, incluindo os conhecimentos sobre propriedades intelectuais relacionadas a esse processo. Em geral, os profissionais atuam no desenvolvimento de programas específicos para empresas, com base nas necessidades dos clientes ou para projetos pontuais. Podem, ainda, trabalhar na indústria de games ou na construção de aplicativos de celular.
+
+#7. Infraestrutura
+
+A infraestrutura de TI está relacionada aos componentes necessários para garantir a operação dos serviços de Tecnologia da Informação. Neste caso, todos os componentes de que falamos antes são considerados e formam a base dos sistemas de informação que tornam uma empresa mais competitiva no mercado: segurança de dados, bom uso de softwares, hardwares etc.
+
+#8. Robótica
+
+Como o próprio nome sugere, a robótica é a ciência que estuda as tecnologias relacionadas à construção de robôs, que, por sua vez, podem ser definidos como mecanismos automáticos que realizam movimentos humanos. Em TI, não necessariamente falamos de robôs da maneira como estamos acostumados a pensar sobre eles – em tarefas domésticas, no setor industrial etc –, mas na automação por meio de softwares robóticos.
+
+#9. Internet das Coisas
+
+Também conhecida pela sigla IoT (Internet of Things, em inglês), Internet das Coisas é um conceito que caracteriza uma rede de objetos físicos que pode reunir e transmitir dados. É uma área considerada uma evolução da Inteligência Artificial. A Alexa, da Amazon, é um exemplo de tecnologia IoT, assim como dispositivos para casas inteligentes.
+
+O mercado de Tecnologia da Informação está aquecido. Se antes mesmo da pandemia já havia uma sinalização de que muitas vertentes da TI seriam profissões do futuro, depois do boom tecnológico provocado pelo isolamento a tendência se ampliou.
+
+No entanto, quem quer trabalhar na área precisa entender que não existe uma única formação, mas várias opções de cursos (sejam de graduação ou técnicos) voltados para segmentos específicos. Em geral, cursos de gradução na área de TI duram de 4 a 5 anos, enquanto que cursos técnicos levam entre 2 e 3 anos.
+
+Para auxiliar nesta escolha, falamos sobre alguns dos cursos mais comuns para formar profissionais em tech:
+
+#1. Engenharia da Computação
+
+Com duração de 4 a 5 anos, o curso de graduação em Engenharia da Computação concentra os conhecimentos em softwares, hardwares, sistemas de redes e até mesmo robótica, principalmente no que diz respeito à automação industrial. O conteúdo programático normalmente passa pelo estudo de algoritmos, arquitetura a informação, redes de computadores, transmissão de dados etc. Em geral, a graduação dá uma base sobre Engenharia Eletrônica, porém, com foco para a Informática.
+
+#2. Redes de Computadores
+
+O curso de Redes de Computadores (disponível na modalidade de graduação e técnico) contempla a integração entre sistemas e a administração de redes. O conteúdo programático envolve conhecimentos em instalações elétricas e de Informática para o desenvolvimento de projetos locais e de longa distância. É uma opção para quem quer trabalhar com a conexão de roteadores, servidores e outros dispositivos, bem como com segurança de redes.
+
+#3. Análise e Desenvolvimento de Sistemas
+
+Uma das graduações mais populares para profissionais de TI, o curso de Análise e Desenvolvimento de Sistemas trata, principalmente, da documentação e implementação dos sistemas de informação necessários para um negócio. O conteúdo programático para formar analistas de sistemas combina disciplinas da Computação com matérias mais voltadas para desenvolvimento de projetos. 
+
+#4. Ciência da Computação
+
+Tal opção de bacharelado faz parte das Ciências Exatas, o que significa que o estudante precisa ter um bom raciocínio lógico para acompanhar a formação. A grade passa pelo desenvolvimento de sistemas de informática mais simples até os mais complexos. Já o mercado de trabalho é bem abrangente, podendo o cientista trabalhar como desenvolvedor, programador, arquiteto de software etc.
+
+Curso de tecnologia da informação gratuito: 6 opções 
+
+Coursera
+
+O Coursera é uma plataforma de ensino online que oferece uma ampla variedade de cursos gratuitos e pagos em TI. Você pode encontrar cursos de universidades renomadas, como Stanford e Universidade de Michigan, além de outras instituições de renome.
+edX
+
+Semelhante ao Coursera, o edX é uma plataforma de aprendizado online que oferece cursos de TI gratuitos ministrados por universidades líderes, como Harvard, MIT e Berkeley.
+
+Udemy
+
+Embora a maioria dos cursos na Udemy seja paga, eles também têm uma seção de cursos gratuitos. Você pode encontrar uma variedade de cursos introdutórios de TI, bem como alguns mais avançados.
+
+Codecademy
+
+Se você está interessado em aprender programação, o Codecademy é uma excelente opção. Eles oferecem cursos gratuitos interativos para várias linguagens de programação, como Python, JavaScript, HTML, CSS e muito mais.
+
+Khan Academy
+
+Embora seja mais conhecida por suas lições de matemática e ciências, a Khan Academy também oferece cursos gratuitos de programação e ciência da computação, que são ótimos para iniciantes.
+
+Google Digital Garage
+
+A Google Digital Garage oferece uma variedade de cursos gratuitos em várias áreas, incluindo marketing digital, análise de dados e habilidades de negócios. Esses cursos podem ser úteis para quem deseja adquirir conhecimentos relacionados à tecnologia.
+
+Dicas de profissionais da área de TI
+
+Como vimos, não faltam opções de faculdade para trabalhar com TI. No entanto, além dos cursos de bacharelado ou técnicos, também há muitas opções de cursos de extensão e livres sobre conhecimentos específicos da Informática (incluindo cada uma das linguagens de programação, por exemplo). Por isso mesmo, é comum que, para ter chances de progressão na carreira, o profissional precise se aperfeiçoar constantemente a partir de uma formação complementar.
+
+Além dos estudos, quem atua na área recomenda que os ingressantes participem de eventos e fóruns de discussões do segmento para se manterem atualizados das novidades do setor, mas também entrar em contato com colegas e oportunidades do mercado de trabalho. As skills técnicas também não são o único foco de quem busca profissionais de tecnologia. 
+
+Curiosidade, boas habilidades de observação, interesse em diversos assuntos e gostar de desafios são essenciais para os profissionais. Eles precisam ser capazes de entender o contexto em que estão atuando e, a partir disso, ir experimentando, testando e conectando as coisas que já existem. É esse exercício que capacita o profissional a desenvolver novas ideias e inovar. A área de TI também costuma atuar com equipes multidisciplinares, por isso o bom relacionamento interpessoal conta muito.

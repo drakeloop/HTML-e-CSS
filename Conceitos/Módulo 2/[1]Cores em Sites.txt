@@ -1,0 +1,57 @@
+-----------------------Jogadas de Cores em Sites---------------------------
+___________________________________________________________________________
+#Fundo (preto) com letras (brancas):
+	-bonito e demonstra luxo,
+	-porém é visualmente cansativo:
+		(usar no máximo em páginas com poucas informações para ler).
+
+#Páginas com muito texto:
+	-Use o padrão de fundo (branco) com letra (preta),
+	-O cérebro já está acostumado a ler muito nesse padrão.
+___________________________________________________________________________
+#Site do Mac'Donalds:
+	Base:
+	-Vermelho com Amarelo
+		-Vermelho usar em (comida, moda, entreterimento...)
+		-Amarelo Associada a (felicidade, alegria e otimismo)
+	Linha Premium:
+	-Marrom e Cinza: Para a idéia de algo de padrão mais alto.
+		-Marrom associada(robustez...) usar em (alimentação)
+		-Cinza usar em (bens de luxo)
+	Combinações:
+		-Se usa até a associação presente na cor do lanche(produto)
+		-Na cor das roupas de pessoas nas imagens comendo.
+			-Roupas Amarelas, cores neutras
+---------------------------------------------------------------------------
+#Site do Burguer King:
+	Base:
+	-Laranja/Cinza(cimento queimado)/marrom
+		-Laranja usar em (divertimento, ambição, calor)
+		-Cinza usar em (bens de luxo)
+		-Marrom associada(robustez...) usar em (alimentação)
+	-Combinações:
+		-Usa o vermelho tomate e o Verde alface com destaque nas 
+		imagens dos lanches.
+		-Vermelho usar em (comida, moda, entreterimento...)
+		-Verde associado a (saúde, natureza), usar em (relaxamento)
+---------------------------------------------------------------------------
+Site do GreenPeace:
+	Base:
+	-Verde e barras Azul(médio e trânsparente)
+		-Verde associado a (natureza, sorte) usar em (meio ambiente)
+		-Azul associado a (calma, sabedoria) usar em (ciências)
+---------------------------------------------------------------------------
+Sites KitKat e 
+	Base:
+	-Muito voltada a cor que simboliza a marca:
+		-KitKat (fundo todo vermelho)
+		-Milka (fundo todo com tons de roxo)
+	Quando o site é feito para ficar pouco tempo só para mandar para 
+	outros sites referentes a marca no:
+		-Twiter, instagram, facebook, email, etc.
+___________________________________________________________________________
+
+
+
+
+

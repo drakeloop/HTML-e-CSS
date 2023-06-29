@@ -1,0 +1,85 @@
+Aplicação no (ex013).
+___________________________________________________________________________
+#CSS Inline:
+
+-CSS dentro da própria linha do código:
+	-Fica confuso e difícil para manutenção;
+		-usar o mínimo possível.
+	-Usado apenas para exceções de linhas.
+---------------------------------------------------------------------------
+Uma CSS se inícia com a função (style):
+	-style="background-color: aquamarine"
+		#Cor de fundo:
+		-background-color: cor
+		#Cor do caractér:
+		-color: cor
+		#Fonte (letra):
+		-font-family: tipo
+		#Alinhamento:
+		-text-align: justify;
+___________________________________________________________________________
+Aplicação no (ex014).
+___________________________________________________________________________
+#CSS Interno:
+
+-CSS dentro da própria página: 
+	-Mais organizado;
+		-Altera apenas detalhes da página em que está.
+	-Usado apenas para exceções de página.
+*Criando:
+-Abaixo do <title> crie a tag style e abra as partes que deseja mudar o 
+visual com chaves abertas{}, ex:	
+---------------------------------------------------------------------------
+ <style>
+        body {
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        h1 {
+            color: blue;
+        }
+        h2 {
+            color: brown;
+        }
+        p {
+            text-align: justify;
+        }
+    </style>	
+___________________________________________________________________________
+Aplicação no (ex015).
+___________________________________________________________________________
+#CSS Externos:
+
+-CSS em página separada:
+	-Organizado;
+		-Altera todas as páginas com stilo definidos pelo seu 
+		link css.
+	-Usado para definir o padrão principal das páginas do site.
+
+-Abaixo do <title> chame a função (link: css)+[ENTER]
+	<link rel="stylesheet" href="style.css">
+					 ^
+			 (crie essa página com [CTRL]+[Click])
+	-Digite na página criada para CSS (@charset "UTF-8";)
+	-Use o sistema de chaves abertas{}
+	-E insira as formatações desejadas, ex:
+---------------------------------------------------------------------------
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: blue;
+}
+h2 {
+    color: brown;
+}
+p {
+    text-align: justify;
+}
+
+

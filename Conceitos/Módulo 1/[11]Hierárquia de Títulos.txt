@@ -1,0 +1,15 @@
+Aplicação no (ex006).
+
+#Hierárquia de Títulos:
+
+-A regra é simples: 
+	-titulo princinpal <h1>
+	-subtitulos de 1º nível <h2>
+	-subtítulos de 2º nível <h3>
+	-Assim até subtítulo de 6º nível <h6>
+
+-Parágrafos Simulados: 'lorem'
+	-Usado por designers para exemplificar um formato de pagina:
+	-Digite ['lorem']+[ENTER] = parágrafo aleatório
+	-Digite ['lorem5']+[ENTER] = O número indica qntd de palavras a gerar.
+'Essa função preenche linhas com um parágrafo falso'.

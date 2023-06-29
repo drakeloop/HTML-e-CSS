@@ -1,0 +1,75 @@
+Aplicação no (ex009).
+
+#macete: segure o [Alt]+[click com o cursor], faça isso nas tags similares 
+que decidir alterar depois de escritas, dessa forma cria vários cursores e
+possíbilita alterar todas de uma vez. 
+ex(As tags estão ol e decide deixalas ul)
+
+
+#Listas Ordenadas: tag OL 
+<ol type="1">
+    <li>item
+    <li>item
+    <li>item
+    <li>item
+</ol>
+type="1"(padrão) para listagem númerica.
+type="a" ou "A" para listagem alfabética.
+type="i" ou "I" para listagem com algarismo romano.
+---------------------------------------------------------------------------
+#Listas não ordenadas: tag UL
+
+<ul type="squard">
+    <li>item
+    <li>item
+    <li>item
+    <li>item
+</ul>
+type="disc" (padrão). 
+type="circle" (circulo vazio). 
+type="square"(quadrado preto).
+---------------------------------------------------------------------------
+#Lista Aninhadas ou compostas, ex:
+
+<h2>Meu gosto culinário:</h2>
+<ol>
+    <li>Gosto de comer:
+    <ul>
+        <li>Chocolate
+        <li>Sorvete
+    </ul>
+    <li>Não gosto de comer:
+    <ul>
+        <li>Brócolis
+        <li>Azeitona
+    </ul>
+</ol> 
+---------------------------------------------------------------------------
+#Listas de Definições: 
+
+dl(abre e fecha a lista)
+dt(termo)
+dd(descrição)
+ex:
+<dl>
+   <dt>Uva</dt>
+   <dd>É uma fruta roxa ou verde dependendo do tipo.</dd>
+   <dt>Banana</dt>
+   <dd>É uma fruta amarela boa para evitar caimbra.
+</dl>
+___________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

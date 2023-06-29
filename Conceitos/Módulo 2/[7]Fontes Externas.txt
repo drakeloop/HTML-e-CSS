@@ -1,0 +1,14 @@
+Aplicação no (ex017).
+___________________________________________________________________________
+#Fontes Externas:
+	-Google fonts:
+		-Mais de 1500 opções;
+		-Escolha por cátegorias, tipos e linguagens;
+		-Selecione as váriaveis desejada;
+		-@import elas no style
+		-fron-family: 'nome da fonte', fonte categoria ;
+
+	-DaFont:
+		-
+		-
+		-

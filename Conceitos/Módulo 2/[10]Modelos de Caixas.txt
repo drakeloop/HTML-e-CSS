@@ -1,0 +1,31 @@
+Aplicação no (ex021).
+___________________________________________________________________________
+#Modelos de Caixas:
+	#Anatomia de uma Caixa:
+	-height  = altura
+	-width   = largura
+	-border  = linha em volta
+	-padding = espaço interno (aumenta a distância entre a borda e o 
+		   		   conteúdo - da borda pra dentro)
+	-margin  = espaço externo (margem - da borda pra fora)
+	-outline = contorno po fora da borda
+___________________________________________________________________________
+	#Tipos de Caixas:
+	Imagine uma página com um parágrafo e uma box.
+---------------------------------------------------------------------------
+	-Box-level = A caixa ficaria na linha de baixo isolada do parágrafo
+	   -Exemplo: <div>, <h1>, <h2>, <p>, <main>, <video>, etc.
+---------------------------------------------------------------------------
+	-Inline-level = A caixa ficaria na mesma linha do parágrafo.
+	   -Exemplo: <span>, <a>, <code>, <small>, <strong>, <button>, etc.
+___________________________________________________________________________
+
+
+margin: auto; (centraliza automaticamente uma caixa)
+
+border:
+	-solid(sólido) 
+	-dashed(trasejado) 
+	-dotted(pontilhado)
+	-double(duas linhas)
+	-groove(sólido com relevo)

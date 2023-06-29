@@ -1,0 +1,94 @@
+
+
+#Tipografia: 
+	-týpos: Impressão (colocar coisas no papel)
+	-graphía: Escrita
+	- Estudo de como se escreve no papel
+
+-Monge copista:
+	-até 1449 os livros eram vendidos aos nobres por meio de encomenda
+	-Monge Copista eram monges que copiavam os livros
+	-Demoravam dependendo do tamanho do livro mais de 3 meses
+
+-Johannes Gutenberg:
+	-Em 1450 o inventor Gutenberg
+	-Considerado pai da imprensa 
+	-Prensa mecânica de tipos móveis
+	-Era uma forma que se sujava de tinta e servia para fazer 
+	 2 páginas ao mesmo tempo.
+
+___________________________________________________________________________
+
+#Shorthand font:
+-font: 
+	-font-style --> font-weight --> font-size --> font-family
+	   estilo	   peso		  medida  	familia
+
+-É um facilitador para menos linhas de configuração, ex:
+	-font-family: 'work sans', sans-serif;
+	-font-weight: bolder;
+	-font-size: 3em;
+	-font-style: italic;
+
+-Escreva em uma linha apenas:
+	-font: italic bolder 3em 'work sans', sans-serif;
+	
+___________________________________________________________________________
+
+#Medidas de fonte:
+-font-size:
+	-Medidas absolutas:
+		-cm, mm, in(polegada), pt, px
+	-Medidas Relativas:
+		-em, ex, rem, vw, vh, %
+
+	16px = tamanho padrão
+	 1em = 16px
+
+	-recomendada: font-size: 1em ;
+___________________________________________________________________________
+
+#Peso da fonte: "Negrito"
+-font-weight:
+	-Peso por classe nominal:
+		-São 4 variáveis (nem todas fontes tem as 4)
+		-lighter --> normal --> bold --> bolder
+
+	-Peso de 100-900 pulando de 100 em 100:
+		-São 9 variáveis (nem todas fontes tem as 9) 
+		-100 letra magrissíma
+		-900 letra obesa
+-A fonte tem que ser compátivel a alteração
+___________________________________________________________________________
+
+#Normal ou Itálico:
+-font-style: 
+	-normal
+	-italic
+-A fonte tem que ser compátivel a alteração
+___________________________________________________________________________
+
+#Sublinhado:
+-text-decoration: underline;
+-A fonte tem que ser compátivel a alteração
+___________________________________________________________________________
+
+#Web Safe Combinations: 
+-Categorias:
+	
+	-Serifada:
+		-serif
+		-Contém serif que é uns traços a mais nos caractéres.
+	-Sem-serifa:
+		-sans-serif
+		-Letras mais simples
+	-Monoespassada:
+		-monospace
+		-Que tem a mesma distribuição de tamanho em todos 
+		 caractéres.
+	-Escrita a mão:
+		-handwriting
+		-Simula a escrita a mão
+	-Fontes Comemorativas
+		-diplay
+		-fote com formas mais diferenciadas

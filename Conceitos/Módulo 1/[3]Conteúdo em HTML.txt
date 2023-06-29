@@ -1,0 +1,50 @@
+
+#Conteúdo em HTML:
+			
+baseado em marcação(tags) = <tag>
+___________________________________________________
+
+	<h1>Exemplo titulo</h1>
+         ^	     	    ^
+     (abertura	       (fechamento
+       de tag)  	  de tag)
+____________________________________________________
+
+	<p>Exemplo de parágrafo</p>
+	 ^ 			 ^
+      (abertura	            (fechamento
+        de tag)  	       de tag)
+____________________________________________________
+	
+	<img src="foto.png"alt="Exemplo de foto">
+	  ^   ^=(parâmetro)=^			^	
+	  ^   					^
+      (abertura	            		   (fechamento
+        de tag)  	                      de tag)
+
+	     Valores= "foto.png" e "Exemplo de foto"
+
+se lê:  "Mostre a imagem src(source) de origem 'foto.png, 
+	 se não houver, alt(alternativa) mostre 'exemplo de foto'"
+
+
+#Estrutura básica de documento HTML:
+
+<!DOCTIPE html>	    (indica que é HTML5)
+<html lang="pt-br">
+	<head>	(Área de configurações)
+
+		<meta chaset="UTF-8">   (Da base para acentos que tem no pt-br)
+		<meta name="viewport"	
+		content="width=device-width,
+		intial-scale=1.0">
+		<title>Document</title>
+
+	</head>
+	<body>  (Área de conteúdos)
+
+		<h1>Olá, Mundo!</h1>
+		<p>text</p>
+
+	</body>
+</html>

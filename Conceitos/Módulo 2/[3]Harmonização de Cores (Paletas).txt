@@ -1,0 +1,25 @@
+
+#Paletas de cores para o site:
+	Base: Ciclo cromático
+	-São de 3 a 5 cores(sem contar branco e preto das letras):
+	-Devem ser consideradas em harmônia:
+		-Cor primária da marca do cliente
+		-Cor baseada na característica principal do produto ou serviço
+		-Temperatura(quente ou fria)
+		-Complementares(opostas) - maior contraste
+		-Análogas(3 vizinhas) - menores contraste
+		-Análogas e complementar - mista
+		-Análogas relacionadas(2 vizinhas + outra pulando 1 casa)
+			-Esse conceito parece a mista, mas com menor contraste.
+		-Cores intercaladas: 
+			-pulando de 1 em 1 (3 cores)
+			-Quadrado (Pulando de 2 em 2)
+			-Triádicas (Pulando de 3 em 3)
+			-Tetrádicas (escolhe 2 cores e suas complementares)
+		-Monocrômia(degradê):
+			-Principal + 3 variações dela
+			-1 cor só
+			-Modificando sua saturação e o brilho
+			
+
+

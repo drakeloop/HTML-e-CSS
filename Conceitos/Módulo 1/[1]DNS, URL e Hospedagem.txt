@@ -1,0 +1,38 @@
+
+Seridor DNS: É o servidor mundial que registra  os DOMÍNIOS dos ips
+-Uma pessoa entra no navegador e pesquisa pela URL com o dominio do site 
+procurado ex: Instagram.com
+essa pesquisa por nome é levada a DNS ela localiza e devolve o número do 
+IP onde estão os arquivos.
+Pago Anualmente: 
+
+Hospedagem: São empresas onde tem Servidores de Armazenamentos e Segurança
+de dados que cobram pela locação desse serviço pro seu site.
+-Nelas o IPs dos arquivos é localizado pela DNS, que encaminha o aparelho 
+que pesquisou direto para esse servidor onde os dados são armazenados.
+-Paga Mensalmente:influencia o preço o espaço, memória e recursos do site.
+
+HTTP: sigla para Hyper Text Transfer Protocol e HTTPS Hyper Text Transfer 
+Protocol Secure. Ambos são protocolos, ou seja, regras pré-determinadas 
+que permitem ao seu computador trocar informações com um servidor que 
+abriga um site.
+
+URL: Uniform resource Locator (endereço  online)
+URL ex: WWW.github.com/gustavoguanabara
+-WWW = sub-domínio
+-github = nome do dominío
+-.com 	= TLD escolhida
+-.br 	= CCTLD (vem depois da  TLD e indicam nascionalidade)
+      	  CC = country code
+-/após = tudo escrito após a barra é caminho dentro do servidor do site.
+
+
+Outro formato URL valida:
+URL ex: gustavoguanabara.github.io
+-gustavoguanabara = sub-domínio
+-.github 	  = domínio
+-.io		  = GTLD (uma TLD genérica, pouco usada)
+
+Bit: É o 
+
+cada dado tem um caminho para ser enviado.

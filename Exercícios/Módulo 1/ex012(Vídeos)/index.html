@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p><em>Este vídeo está hospedado no meu próprio servidor.</em></p>
+    <p><strong>Consome seu serviço de hospedagem</strong></p>
+    <video width="560" controls>
+        <source src="videos/foguete-web360-Pexels.webm" type="video/webm">
+        <source src="videos/foguete-mkv360-Pexels.mkv" type="video/mp4">
+        <source src="videos/foguete-ogv360-Pexels.ogv" type="video/ogg">
+        <p>Infelizmente seu navegador não é compatível com nenhum dos nossos formatos de vídeo, <a href="videos/foguete-mkv360-Pexels.mkv">clique aqui para fazer o download em mkv.</a></p>
+        <!--Dessa forma o custo de megas/cliente sai muito caro pq os videos são arquivos pesados-->
+    </video>
+    <p><em>Vídeo do extra-terrestre encontrado:</em></p>
+    <video width="560" controls>
+        <source src="videos/extraterrestre-mkv360Pexels.mkv" type="video/mp4">
+    </video>
+    
+    <h1>Inserindo vídeos do Youtube</h1>
+    <p><strong>Esse não consome sua hospedagem mas fica público e quando pausado aparece outros videos do Youtube</strong></p>
+    <p><em>Guardiões da Galáxia 3 (trailer):</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/d1yNc9skssk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+    <p><em>Izzo Comercial Animation:</em></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FRI_fa5VXhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <p><strong>No Vimeo você tem a opção de subir seu video sem custo de hospedagem sem o problema de virar um video público e não aparece propaganda.</strong></p>
+    <iframe src="https://player.vimeo.com/video/280442955?h=5c348e71b9&autoplay=1&title=0&byline=0&portrait=0" width="560" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

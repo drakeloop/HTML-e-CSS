@@ -1,0 +1,22 @@
+Aplicação com (GIMP).
+#Formatos importantes para web:
+
+-Jpeg: Compacta imagens grandes
+	Destorce um pouco mais com zoom que a Png;
+	Mais leve que Png.
+-Png: Alta compactação com transparência
+	Dá para colocar um fundo na imagem.
+
+
+-Deixando a imagem mais leve para o site:
+	-inicialize a imagem full com o GIMP
+	-clique em imagem >>> redimensionar imagem
+	-diminua a largura: 
+		-600 já é bom pra uma foto normal
+		-150-200 é o suficiente para uma logo pequena
+	-diminua a resolução x e y:
+		-30,40,50 dão resultados bons
+	-Exporte no final em arquivo e depois descarte as alterações.
+		-manter a imagem full pra uma futura possível alteração.
+	#conclusão: Sempre teste, quanto menor o tamanho da memória da 
+imagem sem perder as qualidades minimas para o site, melhor.

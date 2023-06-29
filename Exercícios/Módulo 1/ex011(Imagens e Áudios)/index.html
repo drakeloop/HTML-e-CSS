@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/rocket-icon.png" type="image/x-icon">
+    <title>Midías em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em dispositivos diferente ou simplesmente aumente e <br> diminua a tela de seu navegador.</p>
+    <p>
+        <picture>
+            <source media="(max-width: 500px)" srcset="Imagens/foguete(pp).png" type="image/png">
+            <source media="(max-width: 750px)" srcset="Imagens/foguete(p).png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="Imagens/foguete(m).png" type="image/png">
+            <img src="Imagens/foguete(g).png" alt="foguete">
+        </picture>
+    </p>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender como reproduzir áudios em mp3 no navegador pelo seu site.</p>
+    <p><em>Áudio com música infantil alegre:</em></p>
+    <audio src="audios/happy-mistake.mp3" controls></audio>
+    <p><em>Áudio com podcast Guanabara:</em></p>
+    <audio preload="metadata" controls>         <!--abra dentro da tag <audio> a tag <sourc src="" type"""> -->
+        <source src="audios/guanacast-33.mp3" type="audio/mp3"> <!--1°opção-->
+        <source src="audios/guanacast-33.ogg" type="audio/ogg"> <!--2°opço-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio <a href="audios/guanacast-33.mp3">      <!--Se nenhuma das opções não for compatível com o navegador do usuário a opção de download será apresentada-->
+            <d>clique aqui para baixar o arquivo mp3</d>
+        </a>.</p>
+    </audio>
+</body>
+</html>

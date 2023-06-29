@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'andro';
+    src: url('idroid.otf') format(opentype);
+}
+h1, h2 {
+    font-family: 'andro';
+    text-align: left;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px;
+}
+header {
+    background-image:linear-gradient(360deg, #102754, #1F4BA4, #2861D4);
+    background-attachment: fixed;
+    padding: 20px;   
+}
+header > h1, header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+nav > a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+nav > a:hover {
+    text-decoration: underline;
+    color: #28b2d4;
+    background-color: #1F4BA4;
+}
+main {
+    margin: 20px;    
+}
+section#extra {
+    
+}
+footer {
+    background-color: #102754;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 5px;
+}
+footer > p {
+    margin: 0px;
+}
