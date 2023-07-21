@@ -1,0 +1,23 @@
+aula (Configurando a posição da imagem no fundo do site)
+-------------------------------------------------------------------------------------------------
+ <style>
+        body {
+            height: 96vh; /*baseia a configuração na tela toda*/
+            border: 1px dashed black;
+            background-image: url(https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png?raw=true);
+            background-size: 300px; /*tamanho da img*/
+            background-repeat: no-repeat;
+            background-position: left bottom ; /*posição da img*/
+        }
+ </style>
+------------------------------------------------------------------------------------------------
+ como usar background-position: 
+ 	
+ 	-indica a partir de que ponto a imagem ficará ancorada na tela.
+ 
+ background-position: coluna linha
+ 
+ ambas tem 3 opções:
+ 	coluna: left, center e right.
+ 	linha: top, center e bottom.
+ 	 
