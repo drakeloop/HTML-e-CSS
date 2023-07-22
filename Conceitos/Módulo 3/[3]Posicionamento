@@ -4,10 +4,10 @@ aula (Configurando a posição da imagem no fundo do site)
         body {
             height: 96vh; /*baseia a configuração na tela toda*/
             border: 1px dashed black;
-            background-image: url(https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png?raw=true);
+            background-image: url(link da imagem da web ou caminho da pasta);
             background-size: 300px; /*tamanho da img*/
             background-repeat: no-repeat;
-            background-position: left bottom ; /*posição da img*/
+            background-position: left bottom; /*posição da img*/
         }
  </style>
 ------------------------------------------------------------------------------------------------
@@ -20,4 +20,50 @@ aula (Configurando a posição da imagem no fundo do site)
  ambas tem 3 opções:
  	coluna: left, center e right.
  	linha: top, center e bottom.
- 	 
+-------------------------------------------------------------------------------------------------
+aula (Mudando o tamanho da imagem de fundo do site )
+-------------------------------------------------------------------------------------------------
+ melhor forma de deixar o fundo auto-ajustável:
+ 
+ height: 96vh;	(baseia a configuração na tela toda)
+ background-image: url(link da imagem da web ou caminho da pasta);
+ background-size: cover; (cobrir a tela toda com a imagem)
+ background-position: center center;
+
+-------------------------------------------------------------------------------------------------
+aula (background-attachment e shorthand)
+-------------------------------------------------------------------------------------------------
+ como deixar o fundo fixo mesmo rolando a página:
+ 
+ background-attachment: fixed; (attachment = vínculo entre o conteúdo e o fundo)
+ 
+----------------------------------
+ shorthand de background:
+----------------------------------
+ ordem: 
+ background: color > image > position/size > repeat > attachment;
+ ex:
+ background: black url(endereço da imagem) center center/cover no-repeat fixed;
+ 
+-------------------------------------------------------------------------------------------------
+aula (Centralização vertical de caixas)
+-------------------------------------------------------------------------------------------------
+ como centralizar caixas dentro de caixas:
+ 
+ ex022 > fundo007.html
+ complicado mais processo importante para se dominar
+-------------------------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
