@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-
+    --font-01: Verdana, Geneva, Tahoma, sans-serif;
     --font-titulo:'Passion One', cursive;
     --font-poema:'Sriracha', cursive;
 }
@@ -13,7 +13,8 @@
     margin: 0px;
     padding: 0px;
 }
-body {
+main {
+    
 
 }
 header {
@@ -21,11 +22,12 @@ header {
     color: white;
     background-color: black;
     text-align: center;
+    font-family: var(--font-01);
 }
 header > h1 {
     font-family: var(--font-titulo);
     font-variant: small-caps; /*torna todas letras maiusculas mas as primeiras maiores*/
-    font-size: 3.5em;
+    font-size: 10vw;
 }
 header a {
     color: white;
@@ -35,20 +37,21 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
-section > pre {
-    white-space: pre-line;
+section {
     font-family: var(--font-poema);
-    font-size: 1.5em;
+    font-size: 3.5vw;
     
-    padding: 10% 30px; /*aumenta 10% em relação a altura(autoajustável)*/
+    padding: 10% 20px; /*aumenta 10% em relação a altura(autoajustável)*/
     line-height: 2em;/*dobro do espaçamento padrão das linhas*/
 }
-pre.padrao {
-
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.39);
+    display: inline-block; /*cria uma caixa que se adapta ao tamanho do conteúdo*/
+    padding: 5px 10px;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
-#cartas > p {
-    background-color: rgba(0, 0, 0, 0.466);
-    width: 400px;
+section > p {
+    padding-bottom: 2em;
 }
 #flor {
     height: 96hv;
@@ -57,6 +60,7 @@ pre.padrao {
     background-position: right center;
     background-attachment: fixed;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.507);
 }
 #cartas {
     height: 96hv;
@@ -65,11 +69,13 @@ pre.padrao {
     background-position: right center;
     background-attachment: fixed;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596);
 }
 footer {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--font-01);
 
     padding: 10px;
 
