@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela001</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse; /*cola as grade da tabela*/
+            /*border: solid 2px red;*/
+        }
+        tr.destaque {
+            background-color: gray;
+        }
+        td {
+            border: solid 1px black;
+            padding: 10px;
+        }
+        td.alerta {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+        Hierarquia de tabelas (simples)
+    table = tabela
+        table row = linha de tabela
+            table header = cabeçalho de tabela
+            table data = dados de tabela
+    -->
+    <table>
+        <tr> <!-- Primeira linha -->
+            <td>A1</td>
+            <td>b1</td>
+            <td>c1</td>
+        </tr>
+        <tr class="destaque"> <!-- Segunda linha -->
+            <td>A2</td>
+            <td>b2</td>
+            <td>c2</td>
+        </tr>
+        <tr> <!-- Terceira linha -->
+            <td>A3</td>
+            <td>b3</td>
+            <td>c3</td>
+        </tr>
+        <tr> <!-- Quarta linha -->
+            <td>A4</td>
+            <td>b4</td>
+            <td class="alerta">c4</td>
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td>B5</td>
+        </tr>
+        <tr>
+            <td>A6</td>
+        </tr>
+    </table>
+</body>
+</html>

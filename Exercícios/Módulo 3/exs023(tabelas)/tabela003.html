@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela003</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(23, 23, 23);
+            color: rgba(240, 240, 240, 0.61);
+        
+        }
+        header {
+            background-color: rgb(184, 33, 0);
+            color: #d6d6d6;
+            height: 100px;
+        }
+        header > h1 {
+            padding: 15px 20px;
+            padding-bottom: 30px;
+            font-size: 1.2em;
+        }
+        h1 > a {
+            padding-right: 5px;
+        }
+        nav {
+            text-align: center;
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+        nav > a:hover {
+            background-color: #ff66443a;
+        }
+        main {
+            background-color: rgb(32, 33, 36);
+            max-width: 800px;
+            height: 100%;
+            margin: auto;
+            margin-top: 5px;
+        }
+        main > h1 {
+            padding-top: 15px;
+            font-size: 1.2em;
+            padding-left: 10px;
+            color: rgb(179, 176, 176);
+        }
+        table {
+            min-width: 480px; 
+            border-collapse: collapse;
+        }
+        .esquerda {
+            text-align: left;
+            padding-right: 50px;
+            border-collapse: separate;
+            border-left: 20px;
+        }
+        #classificado {
+            border-left:solid 2px blue ;
+            
+        }
+        th, td {
+            border-bottom: solid 0.5px rgba(128, 128, 128, 0.315);
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Anatomia para tabelas grandes:
+        Table
+            Thead
+                TR, TD, TH
+            Tbody
+                TR, TD, TH
+            Tfoot
+                TR, TD, TH
+    -->
+    <header>
+        
+        <h1><a href="https://www.google.com/search?q=copa+do+mundo+feminina&ei=VV7BZK6eCtPw1sQPpMu9sA0&gs_ssp=eJzj4tTP1TcwzE7PyTZg9BJLzi9IVEjJV8gtzQOSaam5mXmZeYkAw8QLug&oq=copa&gs_lp=Egxnd3Mtd2l6LXNlcnAiBGNvcGEqAggBMgsQLhiABBixAxiDATILEC4YgwEYsQMYgAQyBxAuGIoFGEMyChAuGIoFGNQCGEMyCxAAGIAEGLEDGIMBMgcQLhiKBRhDMgcQLhiKBRhDMgcQLhiKBRhDMgsQLhiABBixAxiDATIHEC4YigUYQzIaEC4YgwEYsQMYgAQYlwUY3AQY3gQY4ATYAQNI9TFQvRxY5yBwAXgAkAEAmAHKAaAB_wSqAQUwLjQuMbgBA8gBAPgBAcICChAAGEcY1gQYsAPCAgoQABiKBRiwAxhDwgIOEAAY5AIY1gQYsAPYAQHCAhAQLhiKBRjIAxiwAxhD2AECwgINEC4YigUYsQMYgwEYQ8ICCxAAGIoFGLEDGIMBwgIWEC4YigUYQxiXBRjcBBjeBBjgBNgBA8ICDRAAGIoFGLEDGIMBGEPCAhoQLhiABBixAxiDARiXBRjcBBjeBBjgBNgBA-IDBBgAIEGIBgGQBhC6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBQ&sclient=gws-wiz-serp"><img src="seta.pq.png" alt="voltar" width="20px height 20px"></a>Copa do Mundo Feminina da FIFA</h1>
+        <nav>
+            <a href="">Partidas</a>
+            <a href="">Notícias</a>
+            <a href="">Classificação</a>
+            <a href="">Fase Final</a>
+            <a href="">Estatísticas</a>
+            <a href="">Jogadoras</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Grupo A</h1>
+        <table>
+            <thead>
+                <th class="esquerda">Clube</th>
+                <th>Pts</th>
+                <th>Pj</th>
+                <th>VIT</th>
+                <th>E</th>
+                <th>DER</th>
+                <th>GM</th>
+                <th>GC</th>
+                <th>SG</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="esquerda" id="classificado">1 🇨🇭 Suíça</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td class="esquerda" id="classificado">2 🇳🇿 Nova Zelândia</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">3 🇵🇭 Filipinas</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">4 🇳🇴 Noruega</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>-1</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Grupo B</h1>
+        <table>
+            <thead>
+                <th class="esquerda">Clube</th>
+                <th>Pts</th>
+                <th>Pj</th>
+                <th>VIT</th>
+                <th>E</th>
+                <th>DER</th>
+                <th>GM</th>
+                <th>GC</th>
+                <th>SG</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="esquerda" id="classificado">1 🇳🇬 Nigéria</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td class="esquerda" id="classificado">2 🇨🇦 Canadá</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">3 🇦🇺 Austrália</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">4 🇮🇪 Irlanda</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>-2</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Grupo C</h1>
+        <table>
+            <thead>
+                <th class="esquerda">Clube</th>
+                <th>Pts</th>
+                <th>Pj</th>
+                <th>VIT</th>
+                <th>E</th>
+                <th>DER</th>
+                <th>GM</th>
+                <th>GC</th>
+                <th>SG</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="esquerda" id="classificado">1 🇪🇸 Espanha</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td class="esquerda" id="classificado">2 🇯🇵 Japão</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">3 🇨🇷 Costa Rica</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>10</td>
+                    <td>-10</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">4 🇿🇲 Zâmbia</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>10</td>
+                    <td>-10</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Grupo D</h1>
+        <table>
+            <thead>
+                <th class="esquerda">Clube</th>
+                <th>Pts</th>
+                <th>Pj</th>
+                <th>VIT</th>
+                <th>E</th>
+                <th>DER</th>
+                <th>GM</th>
+                <th>GC</th>
+                <th>SG</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="esquerda" id="classificado">1 🇩🇰 Dinamarca</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td class="esquerda" id="classificado">2 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">3 🇨🇳 China</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">4 🇭🇹 Haiti</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>-1</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Grupo E</h1>
+        <table>
+            <thead>
+                <th class="esquerda">Clube</th>
+                <th>Pts</th>
+                <th>Pj</th>
+                <th>VIT</th>
+                <th>E</th>
+                <th>DER</th>
+                <th>GM</th>
+                <th>GC</th>
+                <th>SG</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="esquerda" id="classificado">1 🇺🇸 Estados Unidos</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td class="esquerda" id="classificado">2 🇳🇱 Holanda</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">3 🇵🇹 Portugal</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">4 🇻🇳 Vietnã</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>5</td>
+                    <td>-5</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Grupo F</h1>
+        <table>
+            <thead>
+                <th class="esquerda">Clube</th>
+                <th>Pts</th>
+                <th>Pj</th>
+                <th>VIT</th>
+                <th>E</th>
+                <th>DER</th>
+                <th>GM</th>
+                <th>GC</th>
+                <th>SG</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="esquerda" id="classificado">1 🇧🇷 Brasil</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td class="esquerda" id="classificado">2 🇫🇷 França</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">3 🇯🇲 Jamaica</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">4 🇵🇦 Panamá</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>-4</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Grupo G</h1>
+        <table>
+            <thead>
+                <th class="esquerda">Clube</th>
+                <th>Pts</th>
+                <th>Pj</th>
+                <th>VIT</th>
+                <th>E</th>
+                <th>DER</th>
+                <th>GM</th>
+                <th>GC</th>
+                <th>SG</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="esquerda" id="classificado">1 🇸🇪 Suécia</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td class="esquerda" id="classificado">2 🇮🇹 Itália</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">3 🇿🇦 África do Sul</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">4 🇦🇷 Argentina</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>-1</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Grupo H</h1>
+        <table>
+            <thead>
+                <th class="esquerda">Clube</th>
+                <th>Pts</th>
+                <th>Pj</th>
+                <th>VIT</th>
+                <th>E</th>
+                <th>DER</th>
+                <th>GM</th>
+                <th>GC</th>
+                <th>SG</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="esquerda" id="classificado">1 🇩🇪 Alemanha</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td>0</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td class="esquerda" id="classificado">2 🇨🇴 Colômmbia</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">3 🇰🇷 Coréia do Sul</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>-2</td>
+                </tr>
+                <tr>
+                    <td class="esquerda">4 🇲🇦 Marrocos</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td>-6</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
