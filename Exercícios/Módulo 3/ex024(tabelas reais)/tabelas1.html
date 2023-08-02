@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Filmes</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            height: 400px;
+        }
+        caption {
+            background-color: rgba(80, 80, 80, 0.726);
+            color: white;
+            font-weight: bolder;
+            padding: 10px;
+            border: solid 1.8px black;
+        }
+        th, td {
+            border: solid 1.8px black;
+        }
+        th {
+            padding: 10px;
+            background-color: rgba(80, 80, 80, 0.726);
+            color: white;
+        }
+        th.mulheres {
+            background-color: rgba(255, 0, 0, 0.377);
+            color: black;
+        }
+        th.homens {
+            background-color: rgba(0, 0, 255, 0.329);
+            color: black;
+        }
+        td {
+            text-align: center;
+        }
+        td.nomes {
+            text-align: left;
+            font-weight: bold;
+        }
+        tr.girl:nth-child(odd) {
+            background-color: rgba(255, 0, 0, 0.377);
+        }
+        tr.girl:nth-child(even) {
+            background-color: rgba(255, 23, 23, 0.253);
+        }
+        tr.boy:nth-child(even) {
+            background-color: rgba(0, 0, 255, 0.479);
+        }
+        tr.boy:nth-child(odd) {
+            background-color: rgba(34, 34, 255, 0.356);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="girl">
+                <th rowspan="3" class="mulheres" scope="rowgroup">Mulheres</th>
+                <td class="nomes">Ana Maria Dos Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr class="girl">
+                <td class="nomes">Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr class="girl">
+                <td class="nomes">Claúdia Mello</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr class="boy">
+                <th rowspan="3" class="homens" scope="rowgroup">homens</th>
+                <td class="nomes">Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Aminésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr class="boy">
+                <td class="nomes">Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>OldBoy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr class="boy">
+                <td class="nomes">Fabiano Motta</td>
+                <td>Star Wars 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

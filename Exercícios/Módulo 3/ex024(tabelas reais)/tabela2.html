@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela2</title>
+    <style>
+        h1 {
+
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: solid 1.7px black;
+            padding: 8px;
+        }
+        .cnome {
+            background-color: gray;
+            color: white;
+        }
+        .csei {
+            background-color: rgba(146, 31, 146, 0.726);
+        }
+        .cprofissao {
+            background-color: rgba(28, 126, 28, 0.534);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csei" span="2"> <!-- configura 2 colunas seguidas-->
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>Feminino</td>
+                <td>21</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Claudio</td>
+                <td>Masculino</td>
+                <td>28</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Fábio</td>
+                <td>Masculino</td>
+                <td>25</td>
+                <td>Bombeiro</td>
+            </tr>
+            <tr>
+                <td>Fernanda</td>
+                <td>Feminino</td>
+                <td>22</td>
+                <td>Recepcionista</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>Masculino</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Jocélia</td>
+                <td>Feminino</td>
+                <td>46</td>
+                <td>Enfermeira</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
