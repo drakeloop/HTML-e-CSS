@@ -1,0 +1,9 @@
+Módulo 4 - Aula 8
+------------------------------------------------------------------------------------------------
+Para deixar um iframe no seu site no modo máximo de segurança, use as seguintes cinfigurações:
+
+	sandbox="sandbox" referrerpolicy="no-referrer"
+	
+Para permitir (Aquivos de mesma origem, Formulários e Scripts), use as seguintes configurações:
+	
+	sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer"

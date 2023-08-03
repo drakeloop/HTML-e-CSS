@@ -1,0 +1,17 @@
+
+Como centralizar uma imagem:
+
+	-Crie um main e uma section que será centralizada:
+
+-------------------------------------------------------------------------------------------------
+isso é padrão:
+		main {
+		    position: relative;
+		    height: 97vh;
+		}
+		section#grande {
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+-------------------------------------------------------------------------------------------------
