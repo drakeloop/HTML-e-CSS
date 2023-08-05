@@ -1,0 +1,26 @@
+Módulo 4 - Aula 19
+-----------------------------------------------------------------------------------------------
+O HTML tem apenas 2 Métodos de envios de dados:
+	Get:
+	   -Limite de 3.000 carácteres.
+	   -Aparece os dados enviados na própria URL.
+	   	-Nenhum pouco seguro.
+	   		-Não serve para dados sensíveis(documentos, senhas, cartões).
+	   			-Não suporta envios de fotos e arquivos.
+	   			
+	   		---------------------------------------------	
+	   		
+	Post:
+	   -Um pouco mais seguro, mais se ispecionar o site encontra os dados em:
+	   	-inspecionar
+	   		-network
+	   		     -coluna Name
+	   			-cadastro.php (nesse caso, mas é só vasculhar as pastas)
+	   				-payload (mostra os dados enviados)
+	   			
+-------------------------------------------------------------------------------------------------
+
+Como tornar um site mais seguro:
+	
+	-Com mecanismos de criptografia https:
+		-Mas são coisas mais avançadas.

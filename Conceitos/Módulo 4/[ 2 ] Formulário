@@ -1,0 +1,52 @@
+Módulo 4 - Aula 18
+-------------------------------------------------------------------------------------------------
+Estrutura de um formulário simples:
+-------------------------------------------------------------------------------------------------
+
+	<form action="cadastro.php" autocomplete="off">
+            
+            <p>Nome: <input type="text" name="Nome" id="nome"></p>
+            
+            <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+            
+            <input type="submit" value="Entrar">
+        </form>
+        	---------------------------------------------------
+        	
+        -Todo formulário fica entre <form> 
+        -Action"script que será enviado após o submit"
+        -autocomplete="off"  (serve para desligar a função)
+        -input: text   (capta textos)
+        -input: submit	(envia os dados)
+        
+        	name="" e id="" servem como indentificadores para o Java, php, python etc.
+        		**Php usa originalmente o nome dos **Id (isso varia na linguagens).
+        		
+-------------------------------------------------------------------------------------------------
+Sempre relaciome o Label ao Input em questão:
+	-Isso é esêncial para os navegadores indentificarem.
+	
+Veja o mesmo formulário com (Label relacionado ao Id do Input):
+
+	<form action="cadastro.php" autocomplete="off">
+            
+            <p><label for="inome">Nome: </label>			***	
+                <input type="text" name="Nome" id="inome"></p>
+            
+                <p><label for="isobrenome">Sobrenome: </label>		***
+                <input type="text" name="sobrenome" id="isobrenome"></p>
+            
+                <input type="submit" value="Entrar">
+                
+        </form>
+        	---------------------------------------------------
+                
+***(envelopa com 'label' insira o nome do Id)
+        
+        
+        
+        
+        
+        
+        
+        
